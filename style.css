@@ -1,0 +1,553 @@
+body {
+    background-color: #f5f687;
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    padding: 0;
+}
+
+
+#logo {
+    line-height: 168px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #f8c05b;
+    background-color: #54743b;
+    border-radius: 10px;
+    border: solid #f8c05b 2px;
+}
+
+#logo img {
+    border-radius: 10px;
+    display: block;
+
+}
+
+#logo a {
+    display: block;
+    float: left;
+}
+
+#logo p {
+    margin-bottom: 0;
+}
+
+#menu {
+    position: sticky;
+    text-align: center;
+    height: 60px;
+    min-height: 50px;
+    border: solid #f8c05b 2px;
+    border-top: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    background-color: #54743b;
+    font-family: 'Dancing Script', cursive;
+    top: 0;
+    z-index: 100;
+
+}
+
+.sticky {}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 24px;
+    height: 55px;
+    line-height: 200%;
+
+    display: inline-block;
+}
+
+ul>li {
+    display: block;
+    float: left;
+    margin: 0 10px;
+    min-width: 120px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+ul li:hover {
+    background-color: #37340f;
+
+}
+
+ul a {
+    color: #f8c05b;
+    text-decoration: none;
+    display: block;
+    transition: all .5s ease;
+}
+
+ul a:hover {
+    color: #f8c05b;
+    text-decoration: none;
+}
+
+#main {
+    background-color: #54743b;
+
+
+    padding: 10px;
+    border: 2px solid #f8c05b;
+    border-radius: 10px;
+    border-top: none;
+    text-align: center;
+}
+
+.ad {
+    background-color: #54743b;
+    padding: 10px;
+    border: 2px solid #f8c05b;
+    border-radius: 10px;
+    border-left: none;
+    border-top: none;
+    height: 655.2px;
+}
+
+.ad img {
+    width: 100%;
+    height: 100%;
+}
+
+#footer {
+    text-align: center;
+
+    min-height: 100px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    border-top: none;
+    background-color: black;
+    margin-bottom: 0;
+    color: #f8c05b;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.socials {
+
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #f8c05b;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.sociallogos {
+    display: inline-block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 100px;
+    margin: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+.fb:hover {
+    background-color: #4668b3;
+}
+
+.yt {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 100px;
+    margin: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+.yt:hover {
+    background-color: #d94348;
+}
+
+.tw {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 100px;
+    margin: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+.tw:hover {
+    background-color: #3095d3;
+}
+
+.gp {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 100px;
+    margin: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+.gp:hover {
+    background-color: #d95333;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 30px;
+    margin-top: 31%;
+}
+
+[class^="icon-up-circled"]:before,
+[class*=" icon-up-circled"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.sociallogos a {
+
+    color: black;
+    cursor: pointer;
+}
+
+.foto {
+    width: 200px;
+    color: #f8c05b;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+.foto:hover img {
+    transform: scale(1.2);
+}
+
+.zdj {
+    width: 200px;
+    position: relative;
+}
+
+.zdj .link {
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease;
+}
+
+.zdj:hover .link {
+    opacity: 0.9;
+}
+
+.zdj .paragraf {
+    margin-top: 10px;
+}
+
+.zdj .link2 {
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transition: all 0.5s ease;
+}
+
+.zdj:hover .link2 {
+    opacity: 0.9;
+}
+
+.gallery p {
+    margin: 0;
+    line-height: 20px;
+    height: 20px;
+}
+
+.gallery a {
+    color: #f8c05b;
+    text-decoration: none;
+}
+
+.gallery a:hover {
+    text-decoration: underline;
+}
+
+.zdj a {
+    display: block;
+    width: 200px;
+    height: 133.33px;
+}
+
+.zdj a:hover {
+    text-decoration: none;
+}
+
+.gallery {
+    width: 200px;
+    color: #f8c05b;
+    margin: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header {
+    border-radius: 10px;
+    background-color: #37340f;
+    font-size: 24px;
+    margin: 15px auto;
+    width: 25%;
+    height: 50px;
+    color: #f8c05b;
+    line-height: 50px;
+    transition: all 0.5s ease;
+}
+
+.header a {
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    color: #f8c05b;
+}
+
+.header:hover {
+    background-color: #26230e;
+}
+
+input[type=search] {
+    width: 300px;
+    font-family: 'Dancing Script', cursive;
+    color: #37340f;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: solid 2px #37340f;
+    background-color: #f5f687;
+    box-shadow: 2px 2px 10px rgba(2, 19, 4, 0.637);
+    outline: none;
+    letter-spacing: 1px;
+}
+
+input[type=search]:focus {
+
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 15px rgba(245, 167, 0, 0.829);
+}
+
+input[type=submit] {
+    font-family: 'Dancing Script', cursive;
+    color: #f5f687;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: solid 2px #f8c05b;
+    background-color: #37340f;
+    box-shadow: 2px 2px 10px rgba(2, 19, 4, 0.637);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    letter-spacing: 1px;
+}
+
+input[type=submit]:hover {
+
+    background-color: #26230e;
+
+}
+
+input[type=submit]:focus {
+    box-shadow: 1px 1px 15px rgba(245, 167, 0, 0.829);
+
+}
+
+#footer p {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+@media (min-width:992px) {
+    #menu {
+        height: 110px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    ul>li {
+        display: inline-block;
+        min-width: 90px;
+        margin: 0 10px;
+        float: none;
+    }
+
+    #menu {
+        height: 60px;
+    }
+
+    #logo {
+        line-height: 100px;
+        text-align: center;
+    }
+
+    #logo p {
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+
+    #logo a {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        padding: 20px 20px;
+        margin: 0;
+    }
+
+    #logo img {
+        width: 100%;
+
+    }
+
+    .header {
+        min-width: 30%;
+    }
+
+}
+
+@media (min-width:1200px) {
+    #menu {
+        height: 60px;
+    }
+
+    #logo img {
+        border-radius: 10px;
+        display: block;
+
+    }
+
+    #logo a {
+        display: block;
+        float: left;
+    }
+
+    #logo p {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (min-width: 992px; max-width: 1199px) {
+    #menu {
+        height: 60px;
+    }
+
+    #logo a {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        padding: 20px 100px 0 100px;
+        margin: 0;
+    }
+
+    #logo img {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    #menu {
+
+        height: 110px;
+    }
+
+    .ad {
+        border: 2px solid #f8c05b;
+        border-top: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #footer {
+        line-height: 40px;
+        min-height: 80px;
+    }
+}

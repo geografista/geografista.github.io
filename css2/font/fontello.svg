@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="clock" unicode="&#xe800;" d="M1000 349q0-136-67-251t-182-182-251-67-251 67-182 182-67 251 67 251 182 182 251 67 251-67 182-182 67-251z m-117 0q0 158-112 271t-271 112q-126 0-226-74l2-2q-48-35-83-83l-2 2q-74-100-74-226 0-158 113-270t270-113q126 0 226 74l-2 2q48 35 83 83l2-2q74 100 74 226z m-203-200q0-25-17-42t-43-18q-26 0-42 18l-120 120q-18 18-18 62v320q0 25 18 43t42 17 43-17 17-43v-315l102-103q18-16 18-42z" horiz-adv-x="1000" />
+
+<glyph glyph-name="thermometer-0" unicode="&#xf2cb;" d="M357 100q0-45-31-76t-76-31-76 31-31 76q0 44 31 76t76 31 76-31 31-76z m72 0q0 43-19 80t-53 63v428q0 45-31 76t-76 32-76-32-31-76v-428q-34-25-53-63t-19-80q0-74 53-126t126-53 126 53 53 126z m71 0q0-103-73-177t-177-73-177 73-73 177q0 102 71 175v396q0 75 53 127t126 52 126-52 53-127v-396q71-73 71-175z m71 321v-71h-107v71h107z m0 143v-71h-107v71h107z m0 143v-71h-107v71h107z" horiz-adv-x="571.4" />
+</font>
+</defs>
+</svg>
