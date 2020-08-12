@@ -559,6 +559,6 @@ input[type=submit]:focus {
     }
 
     .header {
-        min-width: 40%;
+        width: 40%;
     }
 }
