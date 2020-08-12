@@ -562,7 +562,19 @@ input[type=submit]:focus {
         width: 40%;
     }
 
-    .fb .yt .tw .gp {
+    .fb {
+        margin: 15px 0;
+    }
+
+    .yt {
+        margin: 15px 0;
+    }
+
+    .tw {
+        margin: 15px 0;
+    }
+
+    .gp {
         margin: 15px 0;
     }
 }
