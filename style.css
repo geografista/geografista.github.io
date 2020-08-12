@@ -551,3 +551,11 @@ input[type=submit]:focus {
         min-height: 80px;
     }
 }
+
+@media (max-width: 499px) {
+
+    #menu {
+        height: 158px;
+    }
+
+}
